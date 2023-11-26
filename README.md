@@ -9,7 +9,8 @@
 ---
 
 ## Übersicht der Layout WPF-Container
-
+Zweck: Anordnung und Größe von Steuerelementen in der Benutzeroberfläche steuern.
+--
 ### 1. Canvas
    - Ermöglicht absolute Positionierung von Elementen.
    - **Konkrete Anwendungsbeispiele und Umsetzungen:**
@@ -51,6 +52,18 @@
      - Erstellung von gleichmäßigen Rasterlayouts.
    - **Vorteile bei der Verwendung:**
      - Gleichmäßige Verteilung von Elementen.
+
+Vorteile von Layoutcontainern:
+--
+### 1. Flexibilität:
+
+-Anpassung an verschiedene Bildschirmgrößen und Auflösungen.
+### 2. Klare Strukturierung:
+
+-Übersichtliches Design der Benutzeroberfläche.
+### 3. Effiziente Organisation:
+
+-Verbesserte Benutzererfahrung durch klare Anordnung.
 
 ## Beispiel mit Canvas
 
@@ -125,3 +138,14 @@ WPF-Triggers sind mächtige Werkzeuge zur dynamischen Steuerung von Benutzerober
    </StackPanel>
 </Window>
 ```
+
+UserControls
+---
+UserControl`s sind wiederverwendbare Container-Elemente, die das Markup und den Code gruppieren.
+Es ermöglicht die Erstellung einer benutzerdefinierten Benutzeroberfläche mit spezifischer Funktionalität, die an verschiedenen Stellen oder sogar in verschiedenen Anwendungen verwendet werden kann.
+
+Code Beispiel:
+--
+```xaml
+<Grid>    <TextBlock Text="Name:" VerticalAlignment="Center"/>    <TextBox Text="{Binding UserName}" Margin="10,0,0,0"/></Grid>
+ ---
