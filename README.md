@@ -79,6 +79,30 @@ Vorteile von Layoutcontainern:
     </Canvas>
 </Window>
 ```
+# Übersicht zu den WPF-Styles
+### 1. Was sind WPF-Styles?
+Styles sind eine Möglichkeit, das Erscheinungsbild von WPF-Steuerungselementen (Controls) zu definieren.
+Sie enthalten Setzungen für visuelle Eigenschaften wie Schriftart, Farbe, Ausrichtung usw.
+### 2. Wie werden Styles definiert?
+Styles werden normalerweise im XAML-Code definiert, können aber auch programmatisch in Code-Behind erstellt werden.
+Hier ist ein einfaches Beispiel für einen TextBlock-Style:
+ ```xaml    
+<Window.Resources>
+<!-- Definition des TextBlock-Styles -->
+<Style x:Key="MyTextStyle" TargetType="TextBlock">
+<Setter Property="FontSize" Value="14"/>
+<Setter Property="Foreground" Value="Blue"/>
+</Style>
+</Window.Resources>
+    <Grid>
+<!-- Verwendung des TextBlocks mit dem definierten Style -->
+<TextBlock Text="Hello, WPF!" Style="{StaticResource MyTextStyle}"/>
+</Grid>
+</Window>
+```
+ 
+### 3. Globale Styles:
+Styles können global in der App.xaml-Datei definiert werden und stehen dann allen Fenstern und Steuerelementen zur Verfügung.
 
 # WPF-Triggers: Kurzübersicht
 
