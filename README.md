@@ -104,7 +104,7 @@ Hier ist ein einfaches Beispiel für einen TextBlock-Style:
 ### 3. Globale Styles:
 Styles können global in der App.xaml-Datei definiert werden und stehen dann allen Fenstern und Steuerelementen zur Verfügung.
 
-# WPF-Triggers:Kurzübersicht
+# WPF-Triggers: Kurzübersicht
 
 WPF-Triggers sind mächtige Werkzeuge zur dynamischen Steuerung von Benutzeroberflächen. Property Triggers reagieren auf Eigenschaftsänderungen, DataTriggers auf Datenbindungen, und Event Triggers auf Ereignisse. In dieser Präsentation entdecken wir, wie sie in der Windows Presentation Foundation eingesetzt werden, um flexible und interaktive Benutzeroberflächen zu gestalten.
 
