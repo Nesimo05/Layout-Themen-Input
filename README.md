@@ -171,5 +171,8 @@ Es ermöglicht die Erstellung einer benutzerdefinierten Benutzeroberfläche mit 
 Code Beispiel:
 --
 ```xaml
-<Grid>    <TextBlock Text="Name:" VerticalAlignment="Center"/>    <TextBox Text="{Binding UserName}" Margin="10,0,0,0"/></Grid>
- ---
+<Grid>    
+<TextBlock Text="Name:" VerticalAlignment="Center"/>
+<TextBox Text="{Binding UserName}" Margin="10,0,0,0"/>
+</Grid>
+ 
