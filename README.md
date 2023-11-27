@@ -12,46 +12,28 @@
 Zweck: Anordnung und Größe von Steuerelementen in der Benutzeroberfläche steuern.
 --
 ### 1. Canvas
-   - Ermöglicht absolute Positionierung von Elementen.
-   - **Konkrete Anwendungsbeispiele und Umsetzungen:**
-     - Positionierung von Grafikelementen wie Ellipsen, Rechtecken, usw.
-   - **Vorteile bei der Verwendung:**
-     - Präzise Kontrolle über die Positionierung.
+   - Absolute Positionierung von Elementen.
+   - Grafikelemente präzise platzieren.
 
 ### 2. StackPanel
-   - Ordnet Elemente horizontal oder vertikal an.
-   - **Konkrete Anwendungsbeispiele und Umsetzungen:**
-     - Anordnung von Schaltflächen in einer horizontalen Leiste.
-   - **Vorteile bei der Verwendung:**
-     - Einfache Strukturierung von Elementen in Reihen oder Spalten.
+   - Elemente horizontal oder vertikal anordnen.
+   - Einfache Strukturierung von Schaltflächen.
 
 ### 3. WrapPanel
-   - Ordnet Elemente in einer Zeile oder Spalte an und "wickelt" sie um.
-   - **Konkrete Anwendungsbeispiele und Umsetzungen:**
-     - Anordnung von Bildern, die sich bei Platzmangel automatisch umreiht.
-   - **Vorteile bei der Verwendung:**
-     - Automatisches Umreißen von Elementen.
+   - Elemente in Zeile/Spalte anordnen und umwickeln.
+   - Automatisches Umreißen von Bildern.
 
 ### 4. DockPanel
    - Dockt Elemente an den Rand des verfügbaren Raums.
-   - **Konkrete Anwendungsbeispiele und Umsetzungen:**
-     - Positionierung von Steuerelementen an den Rändern einer Anwendung.
-   - **Vorteile bei der Verwendung:**
-     - Fixierung von Elementen an bestimmten Positionen.
+   - Fixierung von Elementen an bestimmten Positionen.
 
 ### 5. Grid
-   - Ermöglicht die Anordnung von Elementen in Zeilen und Spalten.
-   - **Konkrete Anwendungsbeispiele und Umsetzungen:**
-     - Erstellung komplexer Layouts mit klaren Zeilen- und Spaltenstrukturen.
-   - **Vorteile bei der Verwendung:**
-     - Flexibles Rasterlayout.
+   - Anordnung von Elementen in Zeilen und Spalten.
+   - Erstellung komplexer Layouts mit klaren Strukturen.
 
 ### 6. UniformGrid
-   - Teilt den verfügbaren Raum gleichmäßig auf Zeilen und Spalten auf.
-   - **Konkrete Anwendungsbeispiele und Umsetzungen:**
-     - Erstellung von gleichmäßigen Rasterlayouts.
-   - **Vorteile bei der Verwendung:**
-     - Gleichmäßige Verteilung von Elementen.
+   - Gleichmäßige Verteilung von Raum auf Zeilen/Spalten.
+   - Erstellung von gleichmäßigen Rasterlayouts.
 
 Vorteile von Layoutcontainern:
 --
